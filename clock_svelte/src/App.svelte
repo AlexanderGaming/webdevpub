@@ -109,15 +109,15 @@ var hourCounter = "";
 
     <div class="grid-item">
       <h2>      <div>
-        {#key clock2.minute}
-            <span in:fly={{ y: -20 }}>
-                {clock2.minute}
-            </span>
-        {/key}
-        <span>:</span>
         {#key clock2.hour}
             <span in:fly={{ y: -20 }}>
                 {clock2.hour}
+            </span>
+        {/key}
+        <span>:</span>
+        {#key clock2.minute}
+            <span in:fly={{ y: -20 }}>
+                {clock2.minute}
             </span>
         {/key}
     </div></h2>
