@@ -362,4 +362,6 @@ svg{
             padding: 1em;
         }
 
+      }
+
 </style>
